@@ -4,7 +4,13 @@
   </a>
 </p>
 <h2 align="center">Find songs on Telegram, like on Shazam... 😎</h2>
-
+<p align="center">
+    <a href="https://t.me/MelissaSongs_bot" target="blank">Open on telegram</a>
+    ·
+    <a href="https://github.com/saviomartin/slickr/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/saviomartin/slickr/issues">Request Feature</a>
+</p>
 <p align="center">
 <a href="https://github.com/joaroque/MelissaSongs/blob/master/LICENSE" target="blank">
 <img src="https://img.shields.io/github/license/joaroque/MelissaSongs?style=flat-square" alt="Melissa Songs licence" />
@@ -76,7 +82,7 @@ Note: use `pip install -r requirements .txt` to install all dependencies.
  4. Start the bot
 
     ```shell
-    python3 bot.py
+    python bot.py
     ```
    
 
