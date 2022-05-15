@@ -57,6 +57,8 @@ To get a local copy installed and working, follow these steps:
 
 ### 🚀 Setup the bot
 
+> The bot messages are in Portuguese, I have not yet implemented an i18n middleware to handle the translations, but if you want to change it, access the `/utils/messages.py` file.
+
  1. Get the token from <a href="https://t.me/BotFather">@BotFather</a>
 
  2. Insert your token in the `.env` file
@@ -72,7 +74,7 @@ To get a local copy installed and working, follow these steps:
     ```shell
     python3 bot.py
     ```
-
+   
 
 
 ## 🟪 Deploy on Heroku
@@ -85,10 +87,10 @@ To get a local copy installed and working, follow these steps:
 1. The `\start` command
 <img src="screenshot/start.jpg" alt="Screenshot" width="600">
 
-1. Search songs with music snippets like in Shazam
+2. Search songs with music snippets like in Shazam
 <img src="screenshot/by_voice.jpg" alt="Screenshot" width="600">
 
-1. Search songs with title. eg: `\music` Alan Walker -Zombie
+3. Search songs with title. eg: `\music` Alan Walker -Zombie
 <img src="screenshot/by_text.jpg" alt="Screenshot" width="600">
 
 
