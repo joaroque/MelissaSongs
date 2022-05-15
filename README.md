@@ -29,7 +29,7 @@ To get a local copy installed and working, follow these steps:
  - Clone this repository
 
     ```console
-    git clone https://github.com/henriqueclaranhan/MelissaSongs.git
+    git clone https://github.com/joaroque/MelissaSongs.git
     ```
     
  - Enter the project folder
@@ -82,4 +82,16 @@ To get a local copy installed and working, follow these steps:
 
 ## 📷 Screenshot
 
-<img src="https://user-images.githubusercontent.com/58452863/134260965-005e32f3-27aa-435e-81c9-70b50cf1a8f1.png" alt="Screenshot" width="305" height="700">
+1. The `\start` command
+<img src="screenshot/init.jpg" alt="Screenshot" width="600">
+
+1. Search songs with music snippets like in Shazam
+<img src="screenshot/init.jpg" alt="Screenshot" width="600">
+
+1. Search songs with title. eg: `\music` Alan Walker -Zombie
+<img src="screenshot/init.jpg" alt="Screenshot" width="600">
+
+
+## Meta
+
+I made this banner using saviomartin's [Slickr](slickr.vercel.app/) tool.
