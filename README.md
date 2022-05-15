@@ -40,7 +40,7 @@ To get a local copy installed and working, follow these steps:
 
 ### 📦 Install dependencies
 
-> pip install -r requirements .txt
+Note: use `pip install -r requirements .txt` to install all dependencies.
 
 - Install pyTelegramBotAPI framework
 
@@ -54,16 +54,8 @@ To get a local copy installed and working, follow these steps:
  
         pip install youtube-search-python
         
- - Install decouple
-        
-        pip install decouple
-        
  - Install shazamIO
 
-        pip install shazamio
-     
- - Install aiohttp
-        
         pip install shazamio
 
 
