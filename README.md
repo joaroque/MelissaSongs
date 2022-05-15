@@ -3,7 +3,7 @@
     <img alt="Slickr" src="screenshot/banner.png" width="630" />
   </a>
 </p>
-<h2 align="center">Find music like Shazam on Telegram 😎</h2>
+<h2 align="center">Find songs on Telegram, like on Shazam... 😎</h2>
 
 <p align="center">
 <a href="https://github.com/joaroque/MelissaSongs/blob/master/LICENSE" target="blank">
@@ -51,6 +51,9 @@ To get a local copy installed and working, follow these steps:
  - Install youtube-search-python
  
         pip3 install youtube-search-python
+ - Install decouple
+        
+        pip3 install decouple
 
 ### 🚀 Setup the bot
 
@@ -60,6 +63,8 @@ To get a local copy installed and working, follow these steps:
 
     ```py
     TOKEN = "INSERT_YOUR_TOKEN_HERE"
+    VOICE_DIR=tg_voices/
+    AUDIO_DIR=tg_audios/
     ```
 
  4. Start the bot
