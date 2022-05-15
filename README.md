@@ -83,13 +83,13 @@ To get a local copy installed and working, follow these steps:
 ## 📷 Screenshot
 
 1. The `\start` command
-<img src="screenshot/init.jpg" alt="Screenshot" width="600">
+<img src="screenshot/start.jpg" alt="Screenshot" width="600">
 
 1. Search songs with music snippets like in Shazam
-<img src="screenshot/init.jpg" alt="Screenshot" width="600">
+<img src="screenshot/by_voice.jpg" alt="Screenshot" width="600">
 
 1. Search songs with title. eg: `\music` Alan Walker -Zombie
-<img src="screenshot/init.jpg" alt="Screenshot" width="600">
+<img src="screenshot/by_text.jpg" alt="Screenshot" width="600">
 
 
 ## Meta
