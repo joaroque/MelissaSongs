@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.5.1
+python-decouple==3.6
+youtube-dl==2021.6.6
+youtube-search-python==1.6.5
