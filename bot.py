@@ -78,12 +78,13 @@ async def handle_music_search(message):
 			await sender(chat_id, text, search.message_id)
 			
 			sticker = await bot.send_sticker(chat_id, sucess_st)	
-			await sender(chat_id, msg.downloading)
+			download = await sender(chat_id, msg.downloading)
 
 			file_path = downloader(AUDIO_DIR, res[2], res[1])
 			if file_path:
 				with open(file_path, 'rb') as file:
 					await bot.delete_message(chat_id, sticker.message_id)
+					await bot.delete_message(chat_id, download.message_id)
 					await sender(message.chat.id, file, f=True)
 				# DELETE DOWLOANDED AUDIO FILE
 				os.remove(file_path)
@@ -124,13 +125,14 @@ async def handle_voice(message):
 		await sender(chat_id, text, search.message_id)
 		
 		sticker = await bot.send_sticker(chat_id, sucess_st)	
-		await sender(chat_id, msg.downloading)
+		download = await sender(chat_id, msg.downloading)
 
 		file_path = downloader(AUDIO_DIR, res[2], res[1])
 		if file_path:
 			with open(file_path, 'rb') as file:
-				await sender(message.chat.id, file, f=True)
 				await bot.delete_message(chat_id, sticker.message_id)
+				await bot.delete_message(chat_id, download.message_id)
+				await sender(message.chat.id, file, f=True)
 				# DELETE DOWLOANDED AUDIO FILE
 				os.remove(file_path)
 
