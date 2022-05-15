@@ -59,33 +59,39 @@ async def handle_music_search(message):
 	chat_id = message.chat.id
 	search = await sender(chat_id, msg.searching)
 	sticker = await bot.send_sticker(chat_id, search_st)
-	
-	res = music_search(message.text)
-	
-	if res[0] == False:
-		err = res[1]
+	if message.text:
 		
-		await sender(chat_id, msg.err[err], search.message_id)
-		await bot.delete_message(chat_id, sticker.message_id)
+		res = music_search(message.text)
 		
-		sticker = await bot.send_sticker(chat_id, error_st)
+		if res[0] == False:
+			err = res[1]
+			
+			await sender(chat_id, msg.err[err], search.message_id)
+			await bot.delete_message(chat_id, sticker.message_id)
+			
+			sticker = await bot.send_sticker(chat_id, error_st)
 
+		else:
+			await bot.delete_message(chat_id, sticker.message_id)
+			
+			text = f"{res[2]}\n{res[1]}"
+			await sender(chat_id, text, search.message_id)
+			
+			sticker = await bot.send_sticker(chat_id, sucess_st)	
+			await sender(chat_id, msg.downloading)
+
+			file_path = downloader(AUDIO_DIR, res[2], res[1])
+			if file_path:
+				with open(file_path, 'rb') as file:
+					await bot.delete_message(chat_id, sticker.message_id)
+					await sender(message.chat.id, file, f=True)
+				# DELETE DOWLOANDED AUDIO FILE
+				os.remove(file_path)
 	else:
-		await bot.delete_message(chat_id, sticker.message_id)
-		
-		text = f"{res[2]}\n{res[1]}"
-		await sender(chat_id, text, search.message_id)
-		
-		sticker = await bot.send_sticker(chat_id, sucess_st)	
-		await sender(chat_id, msg.downloading)
+			await sender(chat_id, msg.err['not_found'], search.message_id)
+			await bot.delete_message(chat_id, sticker.message_id)
+			sticker = await bot.send_sticker(chat_id, error_st)
 
-		file_path = downloader(AUDIO_DIR, res[2], res[1])
-		if file_path:
-			with open(file_path, 'rb') as file:
-				await bot.delete_message(chat_id, sticker.message_id)
-				await sender(message.chat.id, file=file)
-			# DELETE DOWLOANDED AUDIO FILE
-			os.remove(file_path)
 
 	
 # Handles all sent voice
