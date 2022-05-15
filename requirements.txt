@@ -1,3 +1,4 @@
+aiohttp==3.7.4.post0
 pyTelegramBotAPI==4.5.1
 python-decouple==3.6
 youtube-dl==2021.6.6
