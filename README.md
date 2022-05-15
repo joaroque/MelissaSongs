@@ -40,20 +40,32 @@ To get a local copy installed and working, follow these steps:
 
 ### 📦 Install dependencies
 
+> pip install -r requirements .txt
+
 - Install pyTelegramBotAPI framework
 
-        pip3 install pyTelegramBotAPI
+        pip install pyTelegramBotAPI
 
  - Install youtube-dl
 
-        pip3 install youtube-dl
+        pip install youtube-dl
 
  - Install youtube-search-python
  
-        pip3 install youtube-search-python
+        pip install youtube-search-python
+        
  - Install decouple
         
-        pip3 install decouple
+        pip install decouple
+        
+ - Install shazamIO
+
+        pip install shazamio
+     
+ - Install aiohttp
+        
+        pip install shazamio
+
 
 ### 🚀 Setup the bot
 
@@ -82,7 +94,7 @@ To get a local copy installed and working, follow these steps:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)]()
 
 
-## 📷 Screenshot
+## 📷 Screenshots
 
 1. The `\start` command
 <img src="screenshot/start.jpg" alt="Screenshot" width="600">
