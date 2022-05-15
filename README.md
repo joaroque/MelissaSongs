@@ -1,9 +1,11 @@
+<h1 align="center">Melissa Songs 💃🏽🎵</h1>
+
 <p align="center">
   <a href="t.me/MelissaSongs_bot">
-    <img alt="Slickr" src="screenshot/banner.png" width="125" />
+    <img alt="Slickr" src="screenshot/banner.png" width="630" />
   </a>
 </p>
-<h1 align="center">Melissa Songs 💃🏽🎵</h1>
+
 
 <p align="center">
 <a href="https://github.com/joaroque/MelissaSongsr/blob/master/LICENSE" target="blank">
