@@ -1,14 +1,12 @@
-<h1 align="center">Melissa Songs 💃🏽🎵</h1>
-
 <p align="center">
   <a href="t.me/MelissaSongs_bot">
     <img alt="Slickr" src="screenshot/banner.png" width="630" />
   </a>
 </p>
-
+<h2 align="center">Find music like Shazam on Telegram 😎</h2>
 
 <p align="center">
-<a href="https://github.com/joaroque/MelissaSongsr/blob/master/LICENSE" target="blank">
+<a href="https://github.com/joaroque/MelissaSongs/blob/master/LICENSE" target="blank">
 <img src="https://img.shields.io/github/license/joaroque/MelissaSongs?style=flat-square" alt="Melissa Songs licence" />
 </a>
 <a href="https://github.com/joaroque/MelissaSongs/fork" target="blank">
@@ -42,9 +40,9 @@ To get a local copy installed and working, follow these steps:
 
 ### 📦 Install dependencies
 
-- Install telepotpro framework
+- Install pyTelegramBotAPI framework
 
-        pip3 install telebot
+        pip3 install pyTelegramBotAPI
 
  - Install youtube-dl
 
