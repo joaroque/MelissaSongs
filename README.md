@@ -12,8 +12,8 @@
     <a href="https://github.com/saviomartin/slickr/issues">Request Feature</a>
 </p>
 <p align="center">
-<a href="https://github.com/joaroque/MelissaSongs/blob/master/LICENSE" target="blank">
-<img src="https://img.shields.io/github/license/joaroque/MelissaSongs?style=flat-square" alt="Melissa Songs licence" />
+<a href="https://github.com/joaroque/MelissaSongs/blob/main/LICENSE" target="blank">
+<img src="https://github.com/joaroque/MelissaSongs/blob/main/LICENSE?style=flat-square" alt="Melissa Songs licence" />
 </a>
 <a href="https://github.com/joaroque/MelissaSongs/fork" target="blank">
 <img src="https://img.shields.io/github/forks/joaroque/MelissaSongs?style=flat-square" alt="Melissa Songs forks"/>
