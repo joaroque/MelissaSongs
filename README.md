@@ -89,7 +89,7 @@ Note: use `pip install -r requirements .txt` to install all dependencies.
 
 ## 🟪 Deploy on Heroku
 
-[Deploy](https://www.herokucdn.com/deploy/button.svg)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
 
 
 ## 📷 Screenshots
