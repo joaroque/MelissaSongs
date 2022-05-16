@@ -13,7 +13,7 @@
 </p>
 <p align="center">
 <a href="https://github.com/joaroque/MelissaSongs/blob/main/LICENSE" target="blank">
-<img src="https://github.com/joaroque/MelissaSongs/blob/main/LICENSE?style=flat-square" alt="Melissa Songs licence" />
+<img src="https://github.com/joaroque/MelissaSongs?style=flat-square" alt="Melissa Songs licence" />
 </a>
 <a href="https://github.com/joaroque/MelissaSongs/fork" target="blank">
 <img src="https://img.shields.io/github/forks/joaroque/MelissaSongs?style=flat-square" alt="Melissa Songs forks"/>
@@ -89,7 +89,7 @@ Note: use `pip install -r requirements .txt` to install all dependencies.
 
 ## 🟪 Deploy on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)]()
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
 
 
 ## 📷 Screenshots
@@ -106,4 +106,4 @@ Note: use `pip install -r requirements .txt` to install all dependencies.
 
 ## Meta
 
-I made this banner using saviomartin's [Slickr](slickr.vercel.app/) tool.
+I made this banner using saviomartin's [Slickr](https://slickr.vercel.app/) tool.
